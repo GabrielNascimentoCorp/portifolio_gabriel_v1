@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Para telas médias */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Para telas grandes */
+@media (min-width: 901px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 header,
 section h2,
 section h3,
@@ -68,7 +88,8 @@ section .container {
 }
 
 .container .profile-photo {
-    max-height: 500px;
+    max-width: 100%;
+    height: auto;
     margin-left: 390px;
     margin-bottom: 30px;
 }
