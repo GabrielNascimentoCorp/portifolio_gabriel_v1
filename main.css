@@ -156,7 +156,12 @@ header {
     display: block;
 }
 
-.contact-methods {
+.contact-methods-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods-2 {
     display: flex;
     justify-content: space-between;
 }
@@ -293,7 +298,21 @@ input:focus, textarea:focus {
         margin-bottom: 200px;
     }
 
-    .contact-methods {
-        display: block;
+    .contact-methods-2 {
+        display: inline-block;
+        padding: 0 40px;
+    } 
+    
+    .social-links {
+        margin-bottom: 60px;
+    }
+
+    .contact-methods-2 p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #contact {
+        margin-bottom: 50px;
     }
 }
