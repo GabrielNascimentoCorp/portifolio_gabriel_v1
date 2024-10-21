@@ -25,7 +25,7 @@ body {
 /* estilização do header */
 
 header {
-    margin-bottom: 50.0rem;
+    margin-bottom: 200px;
 }
 
 .nav-bar {
@@ -63,7 +63,7 @@ header {
 
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 30px;
     color: white;
     font-weight: bold;
 }
@@ -116,52 +116,6 @@ header {
 
 /* section biography */
 
-#biography {
-    padding: 30px 200px;
-    height: 100vh;
-    font-size: px;
-    text-align: justify;
-}
-
-.container h2 {
-    margin-bottom: 50px;
-    font-size: 30px;
-}
-
-.container p {
-    font-size: larger;
-}
-
-/* section contacts */
-
-#contact .container {
-    padding: 50px;
-    display: flex;
-    padding: 0 200px;
-    height: 100vh;
-}
-
-.social-links img {
-    height:35px;
-}
-
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a {
-    text-decoration: none;
-}
-
-#contact .container {
-    display: block;
-}
-
-.contact-methods {
-    display: flex;
-    justify-content: space-between;
-}
 
 form input,
 form textarea,
@@ -281,55 +235,4 @@ input:focus, textarea:focus {
     .open {
         display: block;
     } 
-}
-
-@media screen and (max-width: 17000px) {
-
-    body {
-        background-size: cover;
-    }
-
-    header {
-        margin-bottom: 20px;
-    }
-    
-
-    .container .profile-photo {
-        max-height: 250px;
-    }
-
-
-    #profile-apresentation {
-        margin-bottom: 20px;
-    }
-
-    .container .profile-title h2 {
-        font-size: 30px;
-    }
-
-    .container .profile-subtitle h3 {
-        font-size: 15px;
-    }
-
-    #biography {
-        margin-bottom: 200px;
-    }
-    
-    .social-links {
-        margin-bottom: 60px;
-    }
-
-    #contact {
-        margin-bottom: 50px;
-        max-height: 100vh;
-    }
-
-    .nav-list li {
-        margin-left: 70px;
-    }
-
-    .contact-methods {
-        display: flex;
-        text-align: cneter;
-    }
 }
