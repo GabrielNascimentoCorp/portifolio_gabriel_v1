@@ -22,7 +22,7 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#biography" class="nav-link">Contato</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Trabalhos</a></li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
 
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#biography" class="nav-link">Contato</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Trabalhos</a></li>
             </ul>
 
@@ -50,20 +50,15 @@
 
 <!-- ESTRUTURA DA SEÇÃO 1 -->
 
-<section id="profile-apresentation">
-    <div class="container">
+<section id="section-index">
+    <div class="container-index">
         <div class="profile-index">
             <img class="profile-photo" src="./images/profile_photo_circle.png" alt="">
         </div>
-    
-        <div class="profile-title">
-            <h2>Gabriel Nascimento</h2>
+        <div class="index-title">
+            <h1>Olá! Eu sou o Gabriel:</h1>
+            <h2>Sou analista de suporte e sistemas, além de desenvolvedor júnior, apaixonado por tecnologia!</h2>
         </div>
-    
-        <div class="profile-subtitle">
-            <h3>Analista de Suporte . Analista de Sistemas . Dev Jr</h3>
-        </div>
-    </div>
 </section>
 
 <!-- ESTRUTURA DA SEÇÃO 2 -->
@@ -93,56 +88,21 @@
     </div>
 </section>
 
-<!-- ESTRUTURA SECTION 3 -->
-
-
-<section id="contact">
-    <div class="container">
-        <h2>Contato</h2>
-        <div class="contact-methods">
-            <div>
-                <h3>Me envie uma mensagem</h3>
-                <form action="https://api.sheetmonkey.io/form/3v9auXNjSBcwYJwnsn4fGi" method="post">
-                    <input type="text"  name="name" placeholder="Seu nome ou nome da empresa" required>
-                    <input type="email" name="e-mail" placeholder="Seu e-mail" required>
-                    <input type="tel" name="telefone" placeholder="Seu telefone (opcional)" >
-                    <textarea placeholder="Digite sua mensagem" required></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
-            <div class="social-links">
-                <h3>Minhas Redes</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/gabrielrmn__/" target="_blank">
-                            <img src="./images/instagram.png" alt="logo instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/GabrielNascimentoCorp" target="_blank">
-                            <img src="./images/logo_git_white_png-removebg-preview.png" alt="logo github">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/gabriel-nascimento-899977204/" target="_blank">
-                            <img src="./images/logo_linkedIN.png" alt="logo logo_linkedIN">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Meu Contato</h3>
-                <p>E-mail - gabrielnascimento.corp@gmail.com | Tel - (11) 97158-2001</p>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- ESTRUTURA DA SEÇÃO DE TRABALHOS -->
 
 <section>
-    <div class="logo-wpp">
-        <a class="whatsapp-link" href="https://wa.me/5511971582001" target="_blank">
-            <i class="fa fa-whatsapp"></i>
-        </a>
+    <div class="container-wrapper">
+        <div class="wrapper">
+            <div class="wrapper-holder">
+                <div id="slider-img-1"></div>
+                <div id="slider-img-2"></div>
+            </div>
+        </div>
+
+        <div class="button-holder">
+            <a href="#slider-img-1" class="button"></a>
+            <a href="#slider-img-2" class="button"></a>
+        </div>
     </div>
 </section>
 
@@ -156,6 +116,9 @@
     </div>
 </footer>
 
+<!-- SCRIPTS -->
     <script src="./script.js"></script>
+    <script src="./script-slider.js"></script>
+
 </body>
 </html>

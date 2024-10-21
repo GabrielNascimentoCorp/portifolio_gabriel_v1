@@ -8,3 +8,4 @@ function menuShow() {
         document.querySelector('.icon').src = "./images/clod_white_36dp.svg"
     }
 }
+
