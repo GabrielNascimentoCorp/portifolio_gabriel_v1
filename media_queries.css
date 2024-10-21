@@ -163,35 +163,6 @@
         overflow: hidden; /* Esconde conteúdo que ultrapassa os limites */
     }
 }
-
-@media (max-width: 1024px) {
-    .container-index {
-        display: block;
-    }
-
-    #section-index {
-        font-size: 48px; /* Define a média de 48px */
-    }
-    
-    .index-title h1,
-    .index-title h2 {
-        margin: 0; /* Remove margens padrão para evitar espaçamento extra */
-    }
-    
-    .index-title h1 {
-        font-size: 1.5em; /* Ajuste o tamanho do h1 */
-    }
-    
-    .index-title h2 {
-        font-size: 1em; /* Ajuste o tamanho do h2 */
-    }
-
-    img {
-        position: relative;
-        max-height: 600px;
-        margin-left: 120px;
-    }
-}
     
 
 @media (max-width: 1700px) {
