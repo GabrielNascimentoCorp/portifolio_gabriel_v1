@@ -25,6 +25,10 @@ header {
     text-decoration: none;
 }
 
+.logo a h1 {
+    font-size: 25px;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
