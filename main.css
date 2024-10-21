@@ -228,7 +228,7 @@ header {
 
 /* media queries */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -278,8 +278,3 @@ header {
     } 
 }
 
-/* waiting */ 
-
-#wpp-area {
-    display: none;
-}

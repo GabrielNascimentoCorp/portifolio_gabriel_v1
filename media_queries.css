@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    } 
+}
+
+@media (max-width: 1700px) {
+    
+    #section-index {
+        height: 100vh; /* Ajusta a altura para caber o conteúdo */
+        padding: 20px; /* Adiciona algum preenchimento */
+    }
+
+    .index-title h1 {
+        font-size: px; /* Ajusta o tamanho da fonte */
+        margin-bottom: 20px; /* Ajusta a margem inferior */
+    }
+
+    .index-title h2 {
+        font-size: 28px; /* Ajusta o tamanho da fonte */
+    }
+
+    #biography {
+        height: auto; /* Ajusta a altura para caber o conteúdo */
+        padding: 20px; /* Adiciona algum preenchimento */
+    }
+
+    #biography .container h2 {
+        font-size: 40px; /* Ajusta o tamanho da fonte */
+        margin-bottom: 40px; /* Ajusta a margem inferior */
+    }
+
+    #biography .container p {
+        font-size: 18px; /* Ajusta o tamanho da fonte */
+    }
+
+
+}
