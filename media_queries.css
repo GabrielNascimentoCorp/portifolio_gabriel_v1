@@ -135,6 +135,10 @@
         width: 60px;
         height: 60px;
     }
+
+    #contact {
+        height: 100vh;
+    }
 }
 
 
