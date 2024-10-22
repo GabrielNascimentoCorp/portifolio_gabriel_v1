@@ -58,12 +58,16 @@
             <div class="contact-methods">
                 <div>
                     <h3>Me envie uma mensagem</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome ou nome da empresa" required>
-                        <input type="email" placeholder="Seu e-mail" required>
-                        <input type="tel" placeholder="Seu telefone (opcional)" >
+                    <form action="https://formsubmit.co/gabrielnascimento.corp@gmail.com" method="post">
+                        <input type="text" name="name" placeholder="Seu nome ou nome da empresa" required>
+                        <input type="email" name="email" placeholder="Seu e-mail" required>
+                        <input type="tel" name="tel" placeholder="Seu telefone (opcional)" >
                         <textarea placeholder="Digite sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
+
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <input type="text" name="_honey" style="display: none">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
                 <div class="social-links">
