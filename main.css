@@ -5,6 +5,10 @@
 }
 /* -------------------------------------- INDEX PAGE ------------------------------------------ */ 
 
+html {
+    scroll-behavior: smooth;
+}
+
 header,
 section h2,
 section h3,
